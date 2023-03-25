@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Packman</title>
+  <link rel="stylesheet" type="text/css" href="../css/sanitize.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://unpkg.com/three@0.137.4/build/three.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+  <link rel="stylesheet" type="text/css" href="../css/packman.css">
+
+</head>
+<body>
+  <div class="myCanvas">
+  
+    <div id="Stats-output">
+    </div>
+    
+    <div id="WebGL-output">
+    </div>
+
+    <header>
+      <!-- <div id="header"></div> -->
+    </header>
+    
+    <div id="topImage">
+    </div>
+
+    <ul class="ly_contents">
+      <li class="co_edge" id="co_r">
+        <div id="rightImage"></div>
+      </li>
+      <li id="center">
+        <div id="on_packman"><!-- パックマンイベントが発生する箇所 -->
+          <div class="grid">
+            <!-- grid cells -->
+          </div>
+          <div class="back_contents">
+            <!-- back_contents -->
+            <!-- <img src="../assets/mouse_event/packman/back_contents.png"> -->
+          </div>
+          <img id="packman" style="vertical-align: top; top: 50%; left: 50%;">
+        </div>
+        <!-- <div id="under_packman">
+
+        </div> -->
+      </li>
+      <li class="co_edge">
+        <div id="leftImage"></div>
+      </li>
+    </ul>
+    
+    <div id="bottomImage">
+    </div>
+    
+    <footer>
+      <!-- <div id="footer"></div> -->
+    </footer>
+  
+  </div> 
+  <script src="../js/packman_mouse.js"></script>
+</body>
+</html>

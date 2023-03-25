@@ -1,0 +1,74 @@
+.myCanvas {
+}
+
+#topImage,#bottomImage {
+  width: auto;
+  margin: auto;
+  height: 100px;
+  background-color: gray;
+  position: relative;
+}
+
+.ly_contents {
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+  margin: auto;
+  list-style: none;
+  width: 100%;
+  height: 1000px;
+}
+
+#packman {
+  position: absolute;
+}
+
+.co_edge {
+  flex: 1;
+}
+
+#center {
+  width: 1200px;
+}
+
+#leftImage {
+  height: 1000px;
+  background-color: gray;
+}
+
+#rightImage {
+  height: 1000px;
+  background-color: gray;
+}
+
+#on_packman{
+  height: 1000px;
+  background-color: black;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(48, 25px);
+  grid-template-rows: repeat(40, 25px);
+  width: 1200px;
+  height: 1000px;
+
+  position: absolute;
+  z-index: 100;
+}
+
+.grid-cell {
+}
+
+.grid-cell-energy {
+  background-color: yellow;
+}
+
+.back_contents {
+  width: 1200px;
+  height: 1000px;
+  /* background-color: aqua; */
+
+  position: absolute;
+  z-index: 50;
+}

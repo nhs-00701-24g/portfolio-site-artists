@@ -1,0 +1,43 @@
+/* 共通のCSS */
+body{
+  width: auto;
+  margin: auto;
+}
+
+#header{
+  margin: auto;
+  height: 300px;
+  background-color: azure;
+}
+
+.wrap {}
+
+#WebGL-output {
+  position: absolute;
+  z-index: 10;
+}
+
+.scrollifyContents {
+  position: absolute;
+  right: 0;
+  z-index: 20;
+  width: 40%;
+}
+.ly_section1 {
+  background-color: orange;
+}
+.ly_section2 {
+  background-color: tomato;
+}
+.ly_section3 {
+  background-color: thistle;
+}
+.ly_section4 {
+  background-color: firebrick;
+}
+
+#footer{
+  margin: auto;
+  height: 300px;
+  background-color: blanchedalmond;
+}
