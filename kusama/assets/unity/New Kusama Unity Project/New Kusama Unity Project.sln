@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "New Kusama Unity Project.Plugins", "New Kusama Unity Project.Plugins.csproj", "{7ED2DE4B-D3AA-948E-9030-EDC47F753343}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "New Kusama Unity Project.Editor.Plugins", "New Kusama Unity Project.Editor.Plugins.csproj", "{A25AAA26-7116-233A-FB65-1E2499EC97D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7ED2DE4B-D3AA-948E-9030-EDC47F753343}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ED2DE4B-D3AA-948E-9030-EDC47F753343}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ED2DE4B-D3AA-948E-9030-EDC47F753343}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ED2DE4B-D3AA-948E-9030-EDC47F753343}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A25AAA26-7116-233A-FB65-1E2499EC97D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A25AAA26-7116-233A-FB65-1E2499EC97D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A25AAA26-7116-233A-FB65-1E2499EC97D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A25AAA26-7116-233A-FB65-1E2499EC97D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
