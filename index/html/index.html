@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>index就活用</title>
+  
+  <!-- <script type="text/javascript" src="../libs/literally/jquery-1.8.2.js"></script> -->
+  <script type="text/javascript" src="../libs/three.js"></script>
+  <!-- <script type="text/javascript" src="../libs/stats.js"></script> -->
+  <!-- <script type="text/javascript" src="../libs/dat.gui.js"></script> -->
+  <!-- <script type="text/javascript" src="../tween.js-master/src/Tween.js"></script> -->
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.21/jquery.scrollify.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="../css/sanitize.css">
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+  <div class="myCanvas">
+    <header></header>
+    <div id="wrap">
+      <div id="WebGL-output"></div>
+        <div class="section1 scrollify" id="promotion">
+          <!-- ここに最初の画面のコンテンツ（section1） -->
+          <section class="mainvisual">
+            <video id="bg_v" playsinline autoplay muted loop>
+              <source src="../assets/movies/main_visual.mp4" type="video/mp4">
+              <!-- ここに予備の動画と予備の画像の用意をする -->
+            </video>
+          </section>
+        </div>
+      <div class="scrollContents">
+        <div class="section2 scrollify fadein" id="ly_01">
+          <!-- ここに1つめのスクロール右のコンテンツ(section2)題：ゲームクリエイター岩谷 -->
+          <ul class="ly_content_head">
+            <li class="ly_artist_num">
+              <p class="ly_p_artist">Artist</p>
+              <p class="ly_p_num">01</p>
+            </li>
+            <li class="ly_artist_name">
+              <p class="ly_p_kana">Iwatani Toru</p>
+              <p class="ly_p_name">岩谷 徹</p>
+            </li>
+          </ul>
+          <ul class="ly_content_profile">
+            <li class="ly_artist_pic">
+              <img src="../assets/img/iwatani.png">
+            </li>
+            <li class="ly_artist_pro">
+              <p class="ly_p_pro">PROFILE</p>
+              <table border="3" height="70%" width="100%">
+                <tr class="ly_artist_pro">
+                  <td>職業</td>
+                  <td>ゲームクリエイター</td>
+                </tr>
+                <tr>
+                  <td>生年月日</td>
+                  <td>1995年1月25日</td>
+                </tr>
+                <tr>
+                  <td>出身</td>
+                  <td>東京都目黒区</td>
+                </tr>
+                <tr>
+                  <td>年齢</td>
+                  <td>68 歳</td>
+                </tr>
+                <tr>
+                  <td>代表作 / 年</td>
+                  <td>パックマン / 1980</td>
+                </tr>
+              </table>
+            </li>
+          </ul>
+          <ul class="ly_content_picture">
+            <li class="ly_picture_t_r">
+              <img src="../assets/img/iwatani_01.png">
+            </li>
+            <li class="ly_picture_t_l">
+              <img src="../assets/img/iwatani_03.png">
+            </li>
+          </ul>
+          <ul class="ly_content_picture">
+            <li class="ly_picture_b_r">
+              <img src="../assets/img/iwatani_04.png">
+            </li>
+            <li class="ly_picture_b_l">
+              <img src="../assets/img/iwatani_02.png">
+            </li>
+          </ul>
+          <ul class="ly_content_page_button">
+            <li>
+              <button class="btn" type="button" onclick="location.href='../../iwatani/html/packman.html'">特集ページに移動する</button>
+            </li>
+          </ul>
+        </div>
+        <div class="section3 scrollify fadein" id="ly_02">
+          <!-- ここに2つめのスクロール右のコンテンツ(section3)題：草間彌生 -->
+          <ul class="ly_content_head">
+            <li class="ly_artist_num">
+              <p class="ly_p_artist">Artist</p>
+              <p class="ly_p_num">02</p>
+            </li>
+            <li class="ly_artist_name">
+              <p class="ly_p_kana">Kusama Yayoi</p>
+              <p class="ly_p_name">草間 彌生</p>
+            </li>
+          </ul>
+          <ul class="ly_content_profile">
+            <li class="ly_artist_pic">
+              <img src="../assets/img/kusama.png">
+            </li>
+            <li class="ly_artist_pro">
+              <p class="ly_p_pro">PROFILE</p>
+              <table border="3" height="70%" width="100%">
+                <tr class="ly_artist_pro">
+                  <td>職業</td>
+                  <td>芸術家</td>
+                </tr>
+                <tr>
+                  <td>生年月日</td>
+                  <td>1929年3月22日</td>
+                </tr>
+                <tr>
+                  <td>出身</td>
+                  <td>長野県松本市</td>
+                </tr>
+                <tr>
+                  <td>年齢</td>
+                  <td>93 歳</td>
+                </tr>
+                <tr>
+                  <td>代表作 / 年</td>
+                  <td>かぼちゃ / 1994</td>
+                </tr>
+              </table>
+            </li>
+          </ul>
+          <ul class="ly_content_picture">
+            <li class="ly_picture_t_r">
+              <img src="../assets/img/kusama_03.png">
+            </li>
+            <li class="ly_picture_t_l">
+              <img src="../assets/img/kusama_02.png">
+            </li>
+          </ul>
+          <ul class="ly_content_picture">
+            <li class="ly_picture_b_r">
+              <img src="../assets/img/kusama_01.png">
+            </li>
+            <li class="ly_picture_b_l">
+              <img src="../assets/img/kusama_04.png">
+            </li>
+          </ul>
+          <ul class="ly_content_page_button">
+            <li>
+              <button class="btn" type="button" onclick="location.href='../../kusama/gl/index.html'">特集ページに移動する</button>
+            </li>
+          </ul>
+        </div>
+        <div class="section4 scrollify fadein" id="ly_03">
+          <!-- ここに3つめのスクロール右のコンテンツ(section4) 題：サカナクション山口一郎-->
+          <ul class="ly_content_head">
+            <li class="ly_artist_num">
+              <p class="ly_p_artist">Artist</p>
+              <p class="ly_p_num">03</p>
+            </li>
+            <li class="ly_artist_name">
+              <p class="ly_p_kana">Yamaguchi Ichirou</p>
+              <p class="ly_p_name">山口 一郎</p>
+            </li>
+          </ul>
+          <ul class="ly_content_profile">
+            <li class="ly_artist_pic">
+              <img src="../assets/img/yamaguchi.png">
+            </li>
+            <li class="ly_artist_pro">
+              <p class="ly_p_pro">PROFILE</p>
+              <table border="3" height="70%" width="100%">
+                <tr class="ly_artist_pro">
+                  <td>職業</td>
+                  <td>ミュージシャン</td>
+                </tr>
+                <tr>
+                  <td>生年月日</td>
+                  <td>1980年9月8日</td>
+                </tr>
+                <tr>
+                  <td>出身</td>
+                  <td>北海道小樽市</td>
+                </tr>
+                <tr>
+                  <td>年齢</td>
+                  <td>42 歳</td>
+                </tr>
+                <tr>
+                  <td>代表作 / 年</td>
+                  <td>新宝島 / 2015</td>
+                </tr>
+              </table>
+            </li>
+          </ul>
+          <ul class="ly_content_picture">
+            <li class="ly_picture_t_r">
+              <img src="../assets/img/yamaguchi_01.png">
+            </li>
+            <li class="ly_picture_t_l">
+              <img src="../assets/img/yamaguchi_02.png">
+            </li>
+          </ul>
+          <ul class="ly_content_picture">
+            <li class="ly_picture_b_r">
+              <img src="../assets/img/yamaguchi_03.png">
+            </li>
+            <li class="ly_picture_b_l">
+              <img src="../assets/img/yamaguchi_04.png">
+            </li>
+          </ul>
+          <ul class="ly_content_page_button">
+            <li>
+              <button class="btn" type="button" onclick="location.href='../../iwatani/html/packman.html'">特集ページに移動する</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <!-- <div class="section4 scrollify" id="footer"></div> -->
+    </footer>
+  </div> 
+</body>
+<script type="text/javascript" src="../js/background.js"></script>
+<script type="text/javascript" src="../js/float.js"></script>
+</html>

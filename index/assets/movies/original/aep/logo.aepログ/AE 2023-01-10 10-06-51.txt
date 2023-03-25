@@ -1,0 +1,17 @@
+プロジェクトﾞlogo.aepﾞのAdobe After Effects v22.6 Windows 64レンダリングログ
+
+レンダリングは2023/01/10、 10:06:51に開始しました。
+
+  2023/01/10 10:06:51 : コンポジションﾞレイヤー 4/Artist_logoﾞの開始
+
+  出力先 : C:\xampp\htdocs\HAL2023\index\assets\movies\original\aep\logo_AME\レイヤー 4-Artist_logo.mov    2023/01/10 10:06:52 : コンポジションﾞレイヤー 4/Artist_logoﾞの終了
+
+
+  2023/01/10 10:06:52 : コンポジションﾞレイヤー 4/Artist_logoﾞの開始
+
+  出力先 : C:\xampp\htdocs\HAL2023\index\assets\movies\original\aep\logo_AME\レイヤー 4-Artist_logo.avi    2023/01/10 10:06:54 : コンポジションﾞレイヤー 4/Artist_logoﾞの終了
+
+
+  合計経過時間 : 3 秒
+ログは2023/01/10、10:06:54に閉じられました。
+
